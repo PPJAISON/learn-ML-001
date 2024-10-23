@@ -82,7 +82,15 @@ python src/exception.py
 should know these topics
 --------------------
 python modular coding
+    https://www.youtube.com/watch?v=PBUtAdR1n6g
+    https://www.youtube.com/watch?v=OFrLs22MDAw&list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
+    Python Programming Tutorial #1 - Variables and Data Types
+    7 Years ago, still good.
+
 python eda
 
 
 git push -u origin main
+
+
+
