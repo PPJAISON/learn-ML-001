@@ -1,0 +1,88 @@
+Agenda
+1. setup git hub
+    a. new enviroment
+    b. setup.py
+    c. requirements.txt
+
+
+
+
+cd /home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna
+
+conda create -p venv python==3.8
+------------
+
+#                                                                                                                                                                                            
+# To activate this environment, use                                                                                                                                                          
+#                                                                                                                                                                                            
+#     $ conda activate /home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna/venv                                                                    
+#                                                                                                                                                                                            
+# To deactivate an active environment, use                                                                                                                                                   
+#                                                                                                                                                                                            
+#     $ conda deactiva
+
+conda activate /home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna/venv
+conda deactivate
+
+
+
+echo "# learn-ML-001" >> README.md
+git init
+git add README.md
+git commit -m "first commit-By Jaison"
+git status
+git branch -M main
+git remote add origin git@github.com:PPJAISON/learn-ML-001.git
+git remote -v
+
+    git config --global user.email
+    git config --global user.name
+
+    git config --global user.email "pjaisonp@gmail.com"
+    git config --global user.name "JaisonPappachan-from-mac"
+
+git push -u origin main
+
+git pull 
+
+pip install -r requirements.txt
+
+
+git commit -m "n2d commit with setup.py and requirements"
+git push -u origin main
+
+
+python src/logger.py
+
+python src/exception.py
+
+----------------- steps done on this mac machine -- switched to mac machine and started this course again
+git config --global user.email "pjaisonp@gmail.com"
+git config --global user.name "JaisonPappachan-from-mac"
+
+git pull git@github.com:PPJAISON/learn-ML-001.git main
+
+----
+conda create -p venv python==3.8
+
+conda activate /Users/questuser/projects/RIL/ml-project/learn-ml/02-course/10-20241022-c/01-ml-with-krishna
+conda deactivate
+
+pip install -r requirements.txt
+pip install -e .
+
+python src/logger.py
+
+python src/exception.py
+
+        continue from here
+        https://www.youtube.com/watch?v=gqqGdu1P2FM&list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG&index=4
+
+
+should know these topics
+--------------------
+python modular coding
+python eda
+
+
+git push -u origin main
