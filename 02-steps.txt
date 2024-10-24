@@ -88,9 +88,17 @@ python modular coding
     7 Years ago, still good.
 
 python eda
+        eda- 
+        https://www.youtube.com/watch?v=78ut-S-QOEQ&list=PLe9UEU4oeAuV7RtCbL76hca5ELO_IELk4
 
+        https://www.youtube.com/watch?v=N9rmiGFzSnw&list=PL4GjoPPG4VqO6eg4mUeBDn7k21RLfti8-
+        EDA on Real Life on Job Banking Data Using Python | Introduction | #1
+        
+
+    
 
 git push -u origin main
 
 
 
+https://github.com/krishnaik06/mlproject
