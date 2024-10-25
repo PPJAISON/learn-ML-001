@@ -8,3 +8,9 @@ https://pypi.org/
 
 
 https://www.youtube.com/watch?v=gqqGdu1P2FM&t=32s
+
+
+
+with kirsh naik
+
+Tutorial 1- End To End ML Project With Deployment-Github And Code Set Up

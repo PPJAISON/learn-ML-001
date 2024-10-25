@@ -165,3 +165,7 @@ cython_debug/
 01-notes.txt
 02-steps.txt
 .gitignore
+
+artifacts/
+
+

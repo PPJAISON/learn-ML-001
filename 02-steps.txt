@@ -102,3 +102,16 @@ git push -u origin main
 
 
 https://github.com/krishnaik06/mlproject
+
+
+---
+https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-on-macos/
+cd jupyter-1.0.0
+python3 setup.py install
+
+
+
+for jpyter notebook test
+cd /Users/questuser/projects/RIL/ml-project/learn-ml/01-course
+jupyter notebook
+
