@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: my-note-book/note001.ipynb
+  checksum: 58a3399b38b5c5934517349525f097f992a89769da5481ceda2df0ba8346b006
+version: "1.0"
