@@ -115,3 +115,14 @@ for jpyter notebook test
 cd /Users/questuser/projects/RIL/ml-project/learn-ml/01-course
 jupyter notebook
 
+--------------------
+
+python src/components/data_ingestion.py 
+
+git commit -m "data model 20241109"
+git add .
+git push -u origin main
+git status 
+
+
+

@@ -1,8 +1,12 @@
 fileignoreconfig:
+- filename: catboost_info/catboost_training.json
+  checksum: aa7cccf7671d86babc22fa6f1108c8e4628af8a3a5687cf74e7f6a65091cb5c0
 - filename: my-note-book/02-model-training.ipynb
   checksum: 9c2b6445a572717ab12d19771428e4646496372ac7a38e82ecf1cefca937a2a0
 - filename: my-note-book/catboost_info/catboost_training.json
   checksum: ac351bba46b6b198ef7633972c5ad462aa97c3d88d1ca8c143c4c8788469c3f8
 - filename: my-note-book/note001.ipynb
   checksum: 89bb2b48f042a67d44bb0fb7efbe78460ee7f422b50aac1c60ed0bf5a68fa56e
+- filename: src/utils.py
+  checksum: e7251f5e89fc62abf660c425bf45b7c3a04091e1b4103498b320967930e19ba8
 version: "1.0"
