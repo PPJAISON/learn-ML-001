@@ -19,7 +19,7 @@ from src.utils import save_object
 
 class DataTransformationConfig:
     #preprocessor_obj_file_path=os.path.join
-    preprocessor_obj_file_path: str= '/home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna/artifacts/preprocessor.pkl'
+    preprocessor_obj_file_path: str=os.path.join('artifacts','preprocessor.pkl')
 
 
 class DataTransformation:

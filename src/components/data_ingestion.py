@@ -15,10 +15,13 @@ from src.components.model_trainer import ModelTrainer
 @dataclass
 class DataIngetionConfig:
     #train_data_path: str=os.path.join('')
-    train_data_path: str= '/home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna/artifacts/train.csv'
-    test_data_path:  str= '/home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna/artifacts/test.csv'
-    row_data_path:   str= '/home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna/artifacts/data.csv'
+    #train_data_path: str= '/home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna/artifacts/train.csv'
+    #test_data_path:  str= '/home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna/artifacts/test.csv'
+    #row_data_path:   str= '/home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/10-20241022-c/01-ml-with-krishna/artifacts/data.csv'
 
+    train_data_path: str= os.path.join('artifacts','train.csv')
+    test_data_path:  str= os.path.join('artifacts','test.csv')
+    row_data_path:   str= os.path.join('artifacts','data.csv')
 
 class DataIngestion:
     def __init__(self):
@@ -29,7 +32,10 @@ class DataIngestion:
         logging.info(" Entered the data ingestion method")
 
         try:
-            df=pd.read_csv('/home/bcl6/projects/dev-ops/learn-and-POC/ML-MachineLearning/mlproject-Kirsh-Naik-folder/notebook/data/stud.csv')
+            original_row_data_path:   str= os.path.join('row-data','stud.csv')
+
+            df=pd.read_csv(original_row_data_path)
+
             logging.info(' Read the stud data set')
 
 
