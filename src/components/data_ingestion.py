@@ -11,6 +11,7 @@ from src.components.data_transormation import DataTransformation
 from src.components.data_transormation import DataTransformationConfig
 from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer
+from timeit import default_timer as timer    
 
 @dataclass
 class DataIngetionConfig:
@@ -60,6 +61,7 @@ class DataIngestion:
 
 if __name__ == "__main__":
     print("inside data_ingestion")
+    start = timer() 
     obj=DataIngestion()
 
     #obj.initiate_data_ingestion()
@@ -72,4 +74,5 @@ if __name__ == "__main__":
 
     print(modeltrainer.initiate_model_trainer(train_arr, test_arr))
 
+    print("start to end - time-:", timer()-start) 
 

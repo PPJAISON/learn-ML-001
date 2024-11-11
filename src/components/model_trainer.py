@@ -43,12 +43,12 @@ class ModelTrainer:
                 "Decision Tree": DecisionTreeRegressor(),
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
-                "KNeighbors Regressor": KNeighborsRegressor(),
                 "XGBRegressor": XGBRegressor(),
                 "CatBoosting Regressor": CatBoostRegressor(verbose=False),
                 "AdaBoost Regressor": AdaBoostRegressor()
             }
 
+            #"KNeighbors Regressor": KNeighborsRegressor(),
 
             params={
                 "Decision Tree": {
@@ -114,9 +114,9 @@ class ModelTrainer:
             
             predicted=best_model.predict(X_test)
 
-            r2_score1 = r2_score(y_test, predicted)
+            r2_square = r2_score(y_test, predicted)
 
-            return r2_score1
+            return r2_square
 
         except Exception as e:
             CustomException(e, sys)

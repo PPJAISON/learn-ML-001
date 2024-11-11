@@ -12,7 +12,7 @@ from sklearn.model_selection import GridSearchCV
 
 
 from src.logger import logging
-
+from numba import jit, cuda
 
 def save_object(file_path, obj):
     try:
@@ -26,7 +26,8 @@ def save_object(file_path, obj):
     except Exception as e:
         raise CustomException(e, sys)
     
-
+# function optimized to run on gpu  
+#@jit(target_backend='cuda')
 def evaluate_models (X_train, y_train, X_test, y_test, models, param):
     try:
         report={}
