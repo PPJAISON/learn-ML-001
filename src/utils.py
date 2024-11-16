@@ -12,7 +12,7 @@ from sklearn.model_selection import GridSearchCV
 
 
 from src.logger import logging
-from numba import jit, cuda
+#from numba import jit, cuda
 
 def save_object(file_path, obj):
     try:
